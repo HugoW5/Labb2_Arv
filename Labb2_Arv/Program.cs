@@ -17,7 +17,7 @@ namespace Labb2_Arv
             {
                 Console.WriteLine(animal.ToString());
             }
-
+            Console.Read();
         }
     }
 
@@ -143,6 +143,7 @@ namespace Labb2_Arv
         }
         public void PuffUp()
         {
+            Volume += 5;
             Console.WriteLine("");
         }
     }
